@@ -633,3 +633,111 @@
 2023-08-03 18:19:15,076 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
 2023-08-03 18:19:15,225 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
 2023-08-03 18:19:15,980 : gather          : 0073 :      DEBUG      : legion count not full, can deploy 0 more legions
+2023-08-03 20:56:22,648 : search          : 0027 :      INFO       : Call of Dragons BS's position and size is  (248, 111, 1717, 970)
+2023-08-03 20:56:22,882 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:56:23,104 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:56:23,104 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 1
+2023-08-03 20:56:23,104 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:56:25,222 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:56:25,338 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:56:26,246 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 2 more legions
+2023-08-03 20:56:28,369 : gather          : 0036 :      INFO       : Attemping to farm 1
+2023-08-03 20:56:28,369 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:56:28,512 : search          : 0040 :      DEBUG      : FIND was found on screen
+2023-08-03 20:56:28,513 : search          : 0047 :      DEBUG      : trying to find FIND
+2023-08-03 20:56:31,390 : search          : 0058 :      DEBUG      : FIND was pressed
+2023-08-03 20:56:34,003 : search          : 0047 :      DEBUG      : trying to find SEARCH
+2023-08-03 20:56:37,689 : search          : 0058 :      DEBUG      : SEARCH was pressed
+2023-08-03 20:56:40,672 : search          : 0047 :      DEBUG      : trying to find GATHER
+2023-08-03 20:56:44,026 : search          : 0058 :      DEBUG      : GATHER was pressed
+2023-08-03 20:56:44,026 : search          : 0047 :      DEBUG      : trying to find CREATELEGION
+2023-08-03 20:56:47,727 : search          : 0058 :      DEBUG      : CREATELEGION was pressed
+2023-08-03 20:56:47,727 : search          : 0047 :      DEBUG      : trying to find REMOVEHERO
+2023-08-03 20:56:51,788 : search          : 0058 :      DEBUG      : REMOVEHERO was pressed
+2023-08-03 20:56:51,788 : search          : 0047 :      DEBUG      : trying to find MARCH
+2023-08-03 20:56:55,174 : search          : 0058 :      DEBUG      : MARCH was pressed
+2023-08-03 20:56:55,174 : gather          : 0054 :      INFO       : legion deployed to farm 1
+2023-08-03 20:57:01,179 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 1
+2023-08-03 20:57:01,179 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:57:01,305 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:57:01,305 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 2
+2023-08-03 20:57:01,305 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:57:03,414 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:57:03,535 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:57:04,096 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:57:06,239 : gather          : 0036 :      INFO       : Attemping to farm 2
+2023-08-03 20:57:06,240 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:57:06,418 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:57:06,418 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-03 20:57:12,426 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 2
+2023-08-03 20:57:12,426 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:57:12,562 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:57:12,562 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 3
+2023-08-03 20:57:12,563 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:57:14,682 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:57:14,800 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:57:15,346 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:57:17,461 : gather          : 0036 :      INFO       : Attemping to farm 3
+2023-08-03 20:57:17,461 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:57:17,597 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:57:17,597 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-03 20:57:23,610 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 3
+2023-08-03 20:57:23,610 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:57:23,747 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:57:23,748 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 4
+2023-08-03 20:57:23,748 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:57:25,860 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:57:25,977 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:57:26,524 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:57:28,636 : gather          : 0036 :      INFO       : Attemping to farm 4
+2023-08-03 20:57:28,636 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:57:28,766 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:57:28,766 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-03 20:57:34,770 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 4
+2023-08-03 20:57:34,770 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:57:34,910 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:57:34,910 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 5
+2023-08-03 20:57:34,911 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:57:37,030 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:57:37,156 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:57:37,702 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:57:39,817 : gather          : 0036 :      INFO       : Attemping to farm 1
+2023-08-03 20:57:39,817 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:57:39,941 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:57:39,942 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-03 20:57:45,945 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 5
+2023-08-03 20:57:45,945 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:57:46,071 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:57:46,071 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 6
+2023-08-03 20:57:46,071 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:57:48,194 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:57:48,313 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:57:48,884 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:57:50,997 : gather          : 0036 :      INFO       : Attemping to farm 2
+2023-08-03 20:57:50,997 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:57:51,121 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:57:51,122 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-03 20:57:57,137 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 6
+2023-08-03 20:57:57,137 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:57:57,266 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:57:57,266 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 7
+2023-08-03 20:57:57,266 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:57:59,388 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:57:59,508 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:58:00,074 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:58:02,189 : gather          : 0036 :      INFO       : Attemping to farm 3
+2023-08-03 20:58:02,189 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:58:02,336 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:58:02,337 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-03 20:58:08,350 : pyautoguitest   : 0042 :      DEBUG      : completed cycle 7
+2023-08-03 20:58:08,350 : search          : 0047 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-03 20:58:08,471 : search          : 0050 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-03 20:58:08,471 : pyautoguitest   : 0023 :      DEBUG      : help could not be performed on cycle 8
+2023-08-03 20:58:08,471 : gather          : 0057 :      DEBUG      : checking if legion count is full
+2023-08-03 20:58:10,595 : search          : 0037 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-03 20:58:10,716 : search          : 0040 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-03 20:58:11,246 : gather          : 0071 :      DEBUG      : legion count not full, can deploy 1 more legions
+2023-08-03 20:58:13,356 : gather          : 0036 :      INFO       : Attemping to farm 4
+2023-08-03 20:58:13,356 : search          : 0037 :      DEBUG      : trying to find FIND
+2023-08-03 20:58:13,492 : search          : 0043 :      DEBUG      : FIND could not be found on screen
+2023-08-03 20:58:13,492 : gather          : 0038 :      ERROR      : could not find FIND on screen

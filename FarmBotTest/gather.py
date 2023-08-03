@@ -64,8 +64,6 @@ def legion_overview_check() -> tuple[bool, int]:
 	countLocation = (location[0] + location[2], location[1], 55, 30) # temp hard coded location. detect using search later ? 50 30
 	legionImg = pyautogui.screenshot(region=countLocation)
 
-	legionImg.save("temp4.png")
-
 	deployed = str(pytesseract.image_to_string(legionImg))
 	count = deployed.split('/')
 	if count[0] != count[1]:

@@ -6,7 +6,8 @@ from win32gui import GetWindowText, GetForegroundWindow
 
 cycleCounter = 1
 currentRSS = 1
- 
+sleepTimer = 6 # in seconds
+
 while True:
 	if keyboard.is_pressed("e"):
 		logger.debug("Exiting bot loop.")
@@ -20,9 +21,10 @@ while True:
 	except ButtonNotFound:
 		logger.debug("help could not be performed on cycle " + cycleCounter.__str__())
 
-	legions = legion_overview_check() # find a way to open this when there are no legions currently out of city
+	legions = legion_overview_check() # find a way to open this when sthere are no legions currently out of city
 	sleep(2)
 	if legions[0] == True and legions[1] > 0:
+		sleepTimer = 6 # shorten cycle timer to put out gather legions
 		try:
 			Gather(rsstype=currentRSS)
 			if currentRSS < 4:
@@ -31,7 +33,10 @@ while True:
 				currentRSS = 1
 		except ButtonNotFound:
 			logger.debug("temp gather bug")
-
+	elif legions[0] == False and legions[1] == 0:
+		logger.debug("set cycle timer to 6mins")
+		sleepTimer = 360 # increase cycle timer since all legions are farming
+	
 	time.sleep(6)
 	logger.debug("completed cycle " + cycleCounter.__str__())
 	cycleCounter += 1
@@ -39,9 +44,5 @@ while True:
 	
 
 # TODO
-# proper debug message function with timestamps!!
-# get gather  function working ( send march, dont send if max legions are out)
-# get a working gather loop 
-
-# gather_rss(ResourceType.GOLD)
-
+# get game state from looking at screen
+# alliance donations ?

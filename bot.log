@@ -741,3 +741,135 @@
 2023-08-03 20:58:13,356 : search          : 0037 :      DEBUG      : trying to find FIND
 2023-08-03 20:58:13,492 : search          : 0043 :      DEBUG      : FIND could not be found on screen
 2023-08-03 20:58:13,492 : gather          : 0038 :      ERROR      : could not find FIND on screen
+2023-08-07 21:54:47,531 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 21:54:47,691 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 21:54:47,879 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 21:54:47,879 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 1
+2023-08-07 21:54:47,879 : gather          : 0065 :      DEBUG      : checking if legion count is full
+2023-08-07 21:54:49,997 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 21:54:50,109 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 21:54:51,838 : gather          : 0079 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 21:54:53,958 : gather          : 0044 :      INFO       : Attemping to farm 1
+2023-08-07 21:54:53,958 : search          : 0040 :      DEBUG      : trying to find FIND
+2023-08-07 21:54:54,111 : search          : 0046 :      DEBUG      : FIND could not be found on screen
+2023-08-07 21:54:54,112 : gather          : 0046 :      ERROR      : could not find FIND on screen
+2023-08-07 21:55:00,120 : pyautoguitest   : 0041 :      DEBUG      : completed cycle 1
+2023-08-07 21:55:00,120 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 21:55:00,235 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 21:55:00,235 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 2
+2023-08-07 21:55:00,235 : gather          : 0065 :      DEBUG      : checking if legion count is full
+2023-08-07 21:55:02,349 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 21:55:02,457 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 21:55:03,020 : gather          : 0079 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 21:55:05,141 : gather          : 0044 :      INFO       : Attemping to farm 2
+2023-08-07 21:55:05,141 : search          : 0040 :      DEBUG      : trying to find FIND
+2023-08-07 21:55:05,268 : search          : 0046 :      DEBUG      : FIND could not be found on screen
+2023-08-07 21:55:05,268 : gather          : 0046 :      ERROR      : could not find FIND on screen
+2023-08-07 21:55:11,276 : pyautoguitest   : 0041 :      DEBUG      : completed cycle 2
+2023-08-07 21:55:11,276 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 21:55:11,395 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 21:55:11,395 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 3
+2023-08-07 21:55:11,395 : gather          : 0065 :      DEBUG      : checking if legion count is full
+2023-08-07 21:55:13,510 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 21:55:13,626 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 21:55:14,170 : gather          : 0079 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 21:55:16,293 : gather          : 0044 :      INFO       : Attemping to farm 3
+2023-08-07 21:55:16,293 : search          : 0040 :      DEBUG      : trying to find FIND
+2023-08-07 21:55:16,419 : search          : 0046 :      DEBUG      : FIND could not be found on screen
+2023-08-07 21:55:16,419 : gather          : 0046 :      ERROR      : could not find FIND on screen
+2023-08-07 22:03:43,292 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:03:43,528 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:03:43,670 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:03:43,670 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 1
+2023-08-07 22:03:43,670 : gather          : 0066 :      DEBUG      : checking if legion count is full
+2023-08-07 22:03:45,788 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:03:45,909 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 22:03:46,577 : gather          : 0080 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 22:03:48,691 : gather          : 0044 :      INFO       : Attemping to farm 1
+2023-08-07 22:03:48,691 : search          : 0050 :      DEBUG      : trying to find FIND
+2023-08-07 22:03:48,809 : search          : 0053 :      DEBUG      : FIND could not be found
+2023-08-07 22:03:48,810 : pyautoguitest   : 0035 :      DEBUG      : temp gather bug
+2023-08-07 22:03:54,812 : pyautoguitest   : 0041 :      DEBUG      : completed cycle 1
+2023-08-07 22:03:56,835 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:03:56,952 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:03:56,952 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 2
+2023-08-07 22:03:56,952 : gather          : 0066 :      DEBUG      : checking if legion count is full
+2023-08-07 22:03:59,070 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:03:59,186 : search          : 0046 :      DEBUG      : LEGIONLIMIT could not be found on screen
+2023-08-07 22:03:59,187 : gather          : 0070 :      DEBUG      : legion overview failed to open
+2023-08-07 22:04:07,200 : pyautoguitest   : 0041 :      DEBUG      : completed cycle 2
+2023-08-07 22:04:07,200 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:04:07,330 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:04:07,330 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 3
+2023-08-07 22:04:07,330 : gather          : 0066 :      DEBUG      : checking if legion count is full
+2023-08-07 22:04:09,445 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:04:09,564 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 22:04:10,105 : gather          : 0080 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 22:04:12,223 : gather          : 0044 :      INFO       : Attemping to farm 1
+2023-08-07 22:04:12,223 : search          : 0050 :      DEBUG      : trying to find FIND
+2023-08-07 22:04:15,101 : search          : 0061 :      DEBUG      : FIND was pressed
+2023-08-07 22:05:48,303 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:06:15,556 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:06:15,719 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:06:15,861 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:06:15,862 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 1
+2023-08-07 22:06:15,862 : gather          : 0063 :      DEBUG      : checking if legion count is full
+2023-08-07 22:06:17,980 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:06:18,094 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 22:06:18,656 : gather          : 0077 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 22:06:20,775 : gather          : 0044 :      INFO       : Attemping to farm 1
+2023-08-07 22:06:20,775 : search          : 0050 :      DEBUG      : trying to find FIND
+2023-08-07 22:06:23,114 : search          : 0061 :      DEBUG      : FIND was pressed
+2023-08-07 22:07:46,361 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:07:46,519 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:07:46,647 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:07:46,648 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 1
+2023-08-07 22:07:46,648 : gather          : 0063 :      DEBUG      : checking if legion count is full
+2023-08-07 22:07:48,752 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:07:48,875 : search          : 0046 :      DEBUG      : LEGIONLIMIT could not be found on screen
+2023-08-07 22:07:48,876 : gather          : 0067 :      DEBUG      : legion overview failed to open
+2023-08-07 22:07:56,883 : pyautoguitest   : 0041 :      DEBUG      : completed cycle 1
+2023-08-07 22:07:56,883 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:07:56,992 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:07:56,992 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 2
+2023-08-07 22:07:56,992 : gather          : 0063 :      DEBUG      : checking if legion count is full
+2023-08-07 22:07:59,103 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:07:59,219 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 22:07:59,763 : gather          : 0077 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 22:08:01,880 : gather          : 0044 :      INFO       : Attemping to farm 1
+2023-08-07 22:08:01,880 : search          : 0050 :      DEBUG      : trying to find FIND
+2023-08-07 22:08:04,907 : search          : 0061 :      DEBUG      : FIND was pressed
+2023-08-07 22:10:13,486 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:10:13,648 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:10:13,785 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:10:13,785 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 1
+2023-08-07 22:10:13,785 : gather          : 0063 :      DEBUG      : checking if legion count is full
+2023-08-07 22:10:15,905 : search          : 0040 :      DEBUG      : trying to find LEGIONLIMIT
+2023-08-07 22:10:16,050 : search          : 0043 :      DEBUG      : LEGIONLIMIT was found on screen
+2023-08-07 22:10:16,675 : gather          : 0077 :      DEBUG      : legion count not full, can deploy 3 more legions
+2023-08-07 22:10:18,790 : gather          : 0044 :      INFO       : Attemping to farm 1
+2023-08-07 22:10:18,790 : search          : 0050 :      DEBUG      : trying to find FIND
+2023-08-07 22:10:18,907 : search          : 0053 :      DEBUG      : FIND could not be found
+2023-08-07 22:10:18,908 : pyautoguitest   : 0035 :      DEBUG      : Error during legion deployment to gather
+2023-08-07 22:10:24,918 : pyautoguitest   : 0041 :      DEBUG      : completed cycle 1
+2023-08-07 22:10:24,918 : search          : 0050 :      DEBUG      : trying to find HELP_MOBILE
+2023-08-07 22:10:25,043 : search          : 0053 :      DEBUG      : HELP_MOBILE could not be found
+2023-08-07 22:10:25,044 : pyautoguitest   : 0022 :      DEBUG      : help could not be performed on cycle 2
+2023-08-07 22:10:25,044 : gather          : 0063 :      DEBUG      : checking if legion count is full
+2023-08-07 22:10:52,059 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:11:08,364 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (227, 106, 1696, 965)
+2023-08-07 22:14:01,299 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (224, 106, 1693, 965)
+2023-08-07 22:14:15,314 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (216, 102, 1685, 961)
+2023-08-07 22:15:09,607 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (205, 95, 1674, 954)
+2023-08-07 22:15:53,127 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (195, 93, 1664, 952)
+2023-08-07 22:18:44,182 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (188, 89, 1657, 948)
+2023-08-07 22:19:56,352 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (176, 89, 1645, 948)
+2023-08-07 22:20:05,717 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (166, 86, 1635, 945)
+2023-08-07 22:20:23,168 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (155, 83, 1624, 942)
+2023-08-07 22:20:49,360 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (147, 81, 1616, 940)
+2023-08-07 22:21:09,478 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (140, 80, 1609, 939)
+2023-08-07 22:21:52,603 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (140, 80, 1609, 939)
+2023-08-07 22:22:35,473 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (140, 80, 1609, 939)
+2023-08-07 22:25:43,060 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (140, 80, 1609, 939)
+2023-08-07 22:26:17,801 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (140, 80, 1609, 939)
+2023-08-07 22:26:30,802 : search          : 0030 :      INFO       : Call of Dragons BS's position and size is  (123, 75, 1592, 934)

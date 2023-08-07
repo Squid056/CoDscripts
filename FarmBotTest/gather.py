@@ -23,20 +23,26 @@ def get_rss_coords(type: ResourceType) -> tuple:
 	y = 777 + window_rect[1]
 	match type:
 		case ResourceType.GOLD:
-			return (490 + window_rect[0], y) 
+			iconLocation = pyautogui.locateOnScreen("FarmBotTest/resources/gold_mine.png", region=window_rect, confidence=0.85)
+			center = pyautogui.center(iconLocation)
+			return (center.x, center.y) 
 		case ResourceType.WOOD:
-			return (726 + window_rect[0], y)
+			iconLocation = pyautogui.locateOnScreen(path + Button.WOOD_CAMP.__str__(), region=window_rect, confidence=0.9)
+			center = pyautogui.center(iconLocation)
+			return (center.x, center.y) 
 		case ResourceType.STONE:
-			return (974 + window_rect[0], y)
-		case ResourceType.STONE:
-			return (1200 + window_rect[0], y)
+			iconLocation = pyautogui.locateOnScreen(path + Button.ORE_MINE.__str__(), region=window_rect, confidence=0.9)
+			center = pyautogui.center(iconLocation)
+			return (center.x, center.y) 
+		case ResourceType.MANA:
+			iconLocation = pyautogui.locateOnScreen(path + Button.MANA_WELL.__str__(), region=window_rect, confidence=0.9)
+			center = pyautogui.center(iconLocation)
+			return (center.x, center.y) 
 
 def Gather(rsstype: ResourceType) -> bool:
 	# run through the actions of creating a legion to farm selected resource, raise exeptions to be caught during this process
 	logger.info("Attemping to farm " + rsstype.__str__())
-	if not is_on_screen(Button.FIND):
-		logger.error("could not find " + Button.FIND.name + " on screen")
-		return
+
 	click_button(Button.FIND, 0.8)
 	pyautogui.click(get_rss_coords(rsstype), duration=random_float())
 	sleep(2)
@@ -60,8 +66,8 @@ def legion_overview_check() -> tuple[bool, int]:
 	if not is_on_screen(Button.LEGIONLIMIT):
 		logger.debug("legion overview failed to open")
 		return (False, -1)
-	location = pyautogui.locateOnScreen("FarmBotTest/resources/legionlimit.png", region=window_rect, confidence=0.9)
-	countLocation = (location[0] + location[2], location[1], 55, 30) # temp hard coded location. detect using search later ? 50 30
+	limitIconLocation = pyautogui.locateOnScreen(path + "legionlimit.png", region=window_rect, confidence=0.9)
+	countLocation = (limitIconLocation[0] + limitIconLocation[2], limitIconLocation[1], 55, 30) 
 	legionImg = pyautogui.screenshot(region=countLocation)
 
 	deployed = str(pytesseract.image_to_string(legionImg))
@@ -76,6 +82,5 @@ def legion_overview_check() -> tuple[bool, int]:
 		pyautogui.press("j") # j is a custom keybind on bluestacks to open legion menu
 		return (False, 0)
 
-# # TESTING
-# sleep(2)
-# legion_overview_check()
+sleep(1)
+get_rss_coords(ResourceType.GOLD)

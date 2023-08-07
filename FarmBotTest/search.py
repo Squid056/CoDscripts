@@ -10,15 +10,18 @@ class Button(Enum):
 		return self.name.lower() + ".png" # png file ext only for now, maybe order file ext by value ? 1 = png 2 = jpg etc 
 
 	FIND = 1
+	GOLD_MINE = 21
+	WOOD_CAMP = 22
+	ORE_MINE = 23
+	MANA_WELL = 24
 	GATHER = 2
 	HELP_MOBILE = 3
-	HELP_PC = 3
+
 	MARCH = 4
 	CREATELEGION = 5
 	SEARCH = 6
 	REMOVEHERO = 7
 	ALLIANCE = 8
-	RANKINGS = 9
 	LEGIONLIMIT = 10
 
 path = "FarmBotTest/resources/" # path to images

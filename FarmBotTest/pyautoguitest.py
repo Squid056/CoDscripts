@@ -32,7 +32,7 @@ while True:
 			else:
 				currentRSS = 1
 		except ButtonNotFound:
-			logger.debug("temp gather bug")
+			logger.debug("Error during legion deployment to gather")
 	elif legions[0] == False and legions[1] == 0:
 		logger.debug("set cycle timer to 6mins")
 		sleepTimer = 360 # increase cycle timer since all legions are farming
